@@ -1,0 +1,139 @@
+/*XS*/
+
+@media(min-width: 576px){
+	.w-xs-2{
+		width: 50%;
+	}
+	.container{
+		max-width: 540px;
+	}
+	header nav ul{
+		margin-left: 10px;
+	}
+}
+
+/*SM*/
+
+@media(min-width: 768px){
+	.w-sm-2{
+		width: 50%;
+	}
+	.w-sm-3{
+		width: 33.33%;
+	}
+	.container{
+		max-width: 720px
+	}
+	.service-items .service-box{
+		margin-right: 20px;
+	}
+	.service-inner .service-item h2{
+		font-size: 36px;
+	}
+}
+
+/*MD*/
+
+@media(min-width: 992px){
+	.w-md-2{
+		width: 50%;
+	}
+	.container{
+		max-width: 960px;
+	}
+	header nav{
+		display: block;
+		position: static;
+		display: flex;
+	}
+	header nav ul{
+		flex-direction: row;
+	}
+	header .toggle-menu{
+		display: none;
+	}
+	.logoipsum ul{
+		flex-direction: row;
+	}
+	.logoipsum ul li{
+		margin-right: 15px;
+	}
+	.valuation-content{
+		padding: 60px;
+	}
+	.testimonial-inner .testimonial-items{
+		padding: 35px 75px;
+	}
+	.testimonial-title h2{
+		font-size: 54px;
+	}
+	.w-1:last-child .why-choose-us-items{
+		padding: 0 0 0 30px;
+	}
+	.why-choose-us-items h2{
+		font-size: 34px;
+	}
+
+/*LG*/
+
+@media(min-width: 1200px){
+	.w-lg-2{
+		width: 50%;
+	}
+	.w-lg-3{
+		width: 33.33%;
+	}
+	.w-lg-4{
+		width: 24%;
+	}
+	.container{
+		max-width: 1140px;
+	}
+	.service-items .service-box{
+		padding: 35px 80px;
+	}
+	.logoipsum ul li{
+		margin-right: 30px;
+	}
+	.service-title h2, .services-img h2, .testimonial-title h2{
+		font-size: 60px;
+	}
+	.w-1:last-child .why-choose-us-items{
+		padding: 30px 0px 30px 70px;
+	}
+	.why-choose-us-items h2{
+		font-size: 45px;
+	}
+}
+
+/*XL*/
+
+@media(min-width: 1400px){
+	.container{
+		max-width: 1320px;
+	}
+	.w-xl-3{
+		width: 33.33%;
+	}
+	.w-1:last-child .why-choose-us-items{
+		padding: 30px 70px;
+	}
+	.banner .banner-items h1{
+		font-size: 100px;
+	}
+	.service-title h2, .services-img h2, .testimonial-title h2{
+		font-size: 70px;
+	}
+	.valuation-title h2{
+		font-size: 70px;
+	}
+	.testimonial-title h2{
+		font-size: 64px;
+	}
+	.why-choose-us-items h2{
+		font-size: 54px;
+	}
+	.contact-items ul li h3{
+		font-size: 24px;
+	}
+}
